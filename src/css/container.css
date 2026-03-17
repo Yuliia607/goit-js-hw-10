@@ -17,3 +17,29 @@
     max-width: 1200px;
   }
 }
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
